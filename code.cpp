@@ -3,10 +3,11 @@
 #include <random>
 #include <chrono>
 
-// #define vetSize 50000
-#define vetSize 10
-// #define vetCount 10
-#define vetCount 4
+#define vetSize 50000
+#define vetCount 10
+
+// #define vetSize 10
+// #define vetCount 4
 
 using namespace std;
 
@@ -29,23 +30,10 @@ void vetPrint(int *vet) {
     }
 }
 
-
-
-void vetMat(int vet[vetSize][vetCount]) {
-    for (int i = 0; i < vetSize; i++) {
+void vetMat(int vet[vetCount][vetSize]) {
+    for (int i = 0; i < vetCount; i++) {
         printf("\n");
-        for ( int j = 0; j < vetCount; j++ ) {
-
-//             if (j < 10) {
-//                 cout << "0000";
-//             } else if (j < 100) {
-//                 cout << "000";
-//             } else if (j < 1000) {
-//                 cout << "00";
-//             } else if (j < 10000) {
-//                 cout << "0";
-//             }
-
+        for ( int j = 0; j < vetSize; j++ ) {
             printf("i %d j %d vet[i][j] %d\n", i , j, vet[i][j]);
         }
     }
@@ -67,11 +55,11 @@ void checkIsSorted (int *vet, int vetNum) {
     } else {
         printf("VetA%d is not sorted\n", vetNum);
         vetPrint(vet);
-        exit(0);
+        exit(1);
     }
 }
 
-void runCheckIsSorted(int vet[vetSize][vetCount]) {
+void runCheckIsSorted(int vet[vetCount][vetSize]) {
     cout << "---Checking if is sorterd\n";
 
     for (int i = 0; i < vetCount; i++) {
@@ -92,11 +80,10 @@ void TesteSanidadeVetIgual(int *vetA, int *vetAux, int vetNum) {
     printf("---VetA%d == VetAux%d\n", vetNum, vetNum);
 }
 
-void fillVets(int vetA[vetSize][vetCount]) {
+void fillVets(int vetA[vetCount][vetSize]) {
     const int range_from = 1;
-//     const int range_to = 2147483647;
-    const int range_to = 100;
-//     const int range_to = 9;
+    const int range_to = 2147483647;
+//     const int range_to = 100;
 
     random_device rand_dev;
     mt19937 generator(rand_dev());
@@ -104,27 +91,27 @@ void fillVets(int vetA[vetSize][vetCount]) {
 
 //   cout << distr(generator) << '\n';
 
-    printf("\n vetSize %d vetCount %d", vetSize, vetCount);
-    for (int i = 0; i < vetSize; i++) {
-        for (int j = 0; j < vetCount; j++) {
-            printf("\ni %d j %d", i, j);
-            int a = distr(generator);
-            vetA[i][j] = a;
+//     printf("\n vetSize %d vetCount %d", vetSize, vetCount);
+    for (int i = 0; i < vetCount; i++) {
+        for (int j = 0; j < vetSize; j++) {
+//             printf("\ni %d j %d", i, j);
+//             int a = distr(generator);
+//             vetA[i][j] = a;
 
-            cout << "\ndistr(generator) " << a;
-//             vetA[i][j] = distr(generator);
+//             cout << "\ndistr(generator) " << a;
+            vetA[i][j] = distr(generator);
         }
 
-        cout << "\nvetA[i]" << i<< "\n";
-        vetPrint(vetA[i]);
+//         cout << "\nvetA[i]" << i<< "\n";
+//         vetPrint(vetA[i]);
     }
 
-    vetMat(vetA);
+//     vetMat(vetA);
 }
 
-void copyArg1toArg2(int vet1[vetSize][vetCount], int vet2[vetSize][vetCount]) {
-    for (int i = 0; i < vetSize; i++) {
-        for (int j = 0; j < vetCount; j++) {
+void copyArg1toArg2(int vet1[vetCount][vetSize], int vet2[vetCount][vetSize]) {
+    for (int i = 0; i < vetCount; i++) {
+        for (int j = 0; j < vetSize; j++) {
             vet2[i][j] = vet1[i][j];
         }
     }
@@ -154,75 +141,6 @@ void vetwPrint(chrono::duration<double> start, chrono::duration<double> end) {
         << chrono::duration_cast<chrono::seconds>(end - start).count()
         << " sec";
 }
-
-//////////////
-void merge2(int arr[], int l, int m, int r)
-{
-    int n1 = m - l + 1;
-    int n2 = r - m;
- 
-    // Create temp arrays
-    int L[n1], R[n2];
- 
-    // Copy data to temp arrays L[] and R[]
-    for (int i = 0; i < n1; i++)
-        L[i] = arr[l + i];
-    for (int j = 0; j < n2; j++)
-        R[j] = arr[m + 1 + j];
- 
-    // Merge the temp arrays back into arr[l..r]
- 
-    // Initial index of first subarray
-    int i = 0;
- 
-    // Initial index of second subarray
-    int j = 0;
- 
-    // Initial index of merged subarray
-    int k = l;
- 
-    while (i < n1 && j < n2) {
-        if (L[i] <= R[j]) {
-            arr[k] = L[i];
-            i++;
-        }
-        else {
-            arr[k] = R[j];
-            j++;
-        }
-        k++;
-    }
- 
-    // Copy the remaining elements of
-    // L[], if there are any
-    while (i < n1) {
-        arr[k] = L[i];
-        i++;
-        k++;
-    }
- 
-    // Copy the remaining elements of
-    // R[], if there are any
-    while (j < n2) {
-        arr[k] = R[j];
-        j++;
-        k++;
-    }
-}
- 
-// l is for left index and r is
-// right index of the sub-array
-// of arr to be sorted */
-void mergeSort2(int arr[],int l,int r){
-    if(l>=r){
-        return;//returns recursively
-    }
-    int m =l+ (r-l)/2;
-    mergeSort2(arr,l,m);
-    mergeSort2(arr,m+1,r);
-    merge2(arr,l,m,r);
-}
-//////////////
 
 //--------------------------------------------------------------------------------------------------------
 // mergesort top-down
@@ -370,21 +288,19 @@ void mergesortBottomUp(int * v) {
 }
 //--------------------------------------------------------------------------------------------------------
 
-void runMergeSort(int vet[vetSize][vetCount]) {
+void runMergeSort(int vet[vetCount][vetSize]) {
     for (int i = 0; i < vetCount; i++) {
         mergesort(vet[i]);
-
-//         mergeSort2(vet[i], 0, vetSize - 1);
     }
 }
 
-void runmergesortBottomUp(int vet[vetSize][vetCount]) {
+void runmergesortBottomUp(int vet[vetCount][vetSize]) {
     for (int i = 0; i < vetCount; i++) {
         mergesortBottomUp(vet[i]);
     }
 }
 
-void runmergesortInsertionSort(int vet[vetSize][vetCount], int threshold) {
+void runmergesortInsertionSort(int vet[vetCount][vetSize], int threshold) {
     for (int i = 0; i < vetCount; i++) {
         mergesortI(vet[i], threshold);
     }
@@ -398,9 +314,14 @@ void runTest() {
 //     int valueX[] = {49999, 49999, 49999, 49999, 49999, 49999, 49999};
     int countValuesX = 7;
 
-    int vetA[vetSize][vetCount]; // vetA[50000][10]
-//     int vetB[vetSize][vetCount];
-    int vetAux[vetSize][vetCount];
+    int vetA[vetCount][vetSize]; // vetA[10][50000]
+//     int vetB[vetCount][vetSize];
+    int vetAux[vetCount][vetSize];
+
+//     for (int i = 0; i < vetCount; i++){
+//         printf("i %d vetA[i][0] %d vetA[i] %d\n", i, &vetA[i][0], vetA[i]);
+//     }
+//     exit(0);
 
 
 //     for (i = 0; i < vetCount; i++) {
@@ -432,12 +353,12 @@ void runTest() {
 //         mergesort(vetA[i]);
 //     }
 
-//     runMergeSort(vetA);
+    runMergeSort(vetA);
 //     runmergesortBottomUp(vetA);
 
-    for (i = 0; i < vetCount; i++) {
-        insertionSort(vetA[i]);
-    }
+//     for (i = 0; i < vetCount; i++) {
+//         insertionSort(vetA[i]);
+//     }
 
 
     auto end = chrono::steady_clock::now();
@@ -448,7 +369,7 @@ void runTest() {
 //     cout << "\n";
 
     runCheckIsSorted(vetA);
-    return;
+//     return;
 
 //     chrono::duration<double> elapsed_seconds = end - start;
 //     cout << "Tempo gasto: " << elapsed_seconds.count() << " s\n";
@@ -529,7 +450,8 @@ void runTest() {
 }
 
 int main(){
-    int numT = 100;
+//     int numT = 100;
+    int numT = 10;
 
     cout << "\nStrating tests";
     for(int t =0; t < numT; t++) {
