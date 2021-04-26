@@ -89,16 +89,11 @@ void fillVets(int vetA[vetCount][vetSize]) {
     mt19937 generator(rand_dev());
     uniform_int_distribution<int> distr(range_from, range_to);
 
-//   cout << distr(generator) << '\n';
+//     cout << distr(generator) << '\n';
 
 //     printf("\n vetSize %d vetCount %d", vetSize, vetCount);
     for (int i = 0; i < vetCount; i++) {
         for (int j = 0; j < vetSize; j++) {
-//             printf("\ni %d j %d", i, j);
-//             int a = distr(generator);
-//             vetA[i][j] = a;
-
-//             cout << "\ndistr(generator) " << a;
             vetA[i][j] = distr(generator);
         }
 
@@ -288,22 +283,43 @@ void mergesortBottomUp(int * v) {
 }
 //--------------------------------------------------------------------------------------------------------
 
-void runMergeSort(int vet[vetCount][vetSize]) {
+void runMergeSort(int vetA[vetCount][vetSize]) {
+    cout << "\n# mergesort top-down\n";
+
+    auto start = chrono::steady_clock::now();
     for (int i = 0; i < vetCount; i++) {
-        mergesort(vet[i]);
+        mergesort(vetA[i]);
     }
+    auto end = chrono::steady_clock::now();
+
+    runCheckIsSorted(vetA);
+    cout << "time: " << chrono::duration_cast<chrono::milliseconds>(end - start).count() << " ms\n";
 }
 
-void runmergesortBottomUp(int vet[vetCount][vetSize]) {
+void runmergesortBottomUp(int vetA[vetCount][vetSize]) {
+    cout << "\n# mergesortBottomUp\n";
+
+    auto start = chrono::steady_clock::now();
     for (int i = 0; i < vetCount; i++) {
-        mergesortBottomUp(vet[i]);
+        mergesortBottomUp(vetA[i]);
     }
+    auto end = chrono::steady_clock::now();
+
+    runCheckIsSorted(vetA);
+    cout << "time: " << chrono::duration_cast<chrono::milliseconds>(end - start).count() << " ms\n";
 }
 
-void runmergesortInsertionSort(int vet[vetCount][vetSize], int threshold) {
+void runmergesortInsertionSort(int vetA[vetCount][vetSize], int threshold) {
+    cout << "\n# mergesortInsertionSort with X as " << threshold << "\n";
+
+    auto start = chrono::steady_clock::now();
     for (int i = 0; i < vetCount; i++) {
-        mergesortI(vet[i], threshold);
+        mergesortI(vetA[i], threshold);
     }
+    auto end = chrono::steady_clock::now();
+
+    runCheckIsSorted(vetA);
+    cout << "time: " << chrono::duration_cast<chrono::milliseconds>(end - start).count() << " ms\n";
 }
 
 void runTest() {
@@ -346,8 +362,8 @@ void runTest() {
 //     checkIsSorted(vetA1);
 
 
-    cout << "\n# mergesort\n";
-    auto start = chrono::steady_clock::now();
+//     cout << "\n# mergesort\n";
+//     auto start = chrono::steady_clock::now();
 
 //     for (i = 0; i < vetCount; i++) {
 //         mergesort(vetA[i]);
@@ -361,14 +377,14 @@ void runTest() {
 //     }
 
 
-    auto end = chrono::steady_clock::now();
+//     auto end = chrono::steady_clock::now();
 
 //     for (i = 0; i < vetCount; i++) {
 //         checkIsSorted(vetA[i], 'A', i);
 //     }
 //     cout << "\n";
 
-    runCheckIsSorted(vetA);
+//     runCheckIsSorted(vetA);
 //     return;
 
 //     chrono::duration<double> elapsed_seconds = end - start;
@@ -383,7 +399,7 @@ void runTest() {
 //     cout << "Elapsed time in milliseconds: "
 //         << chrono::duration_cast<chrono::milliseconds>(end - start).count() << " ms\n";
 
-    cout << "time: " << chrono::duration_cast<chrono::milliseconds>(end - start).count() << " ms\n";
+//     cout << "time: " << chrono::duration_cast<chrono::milliseconds>(end - start).count() << " ms\n";
 
 //     cout << "Elapsed time in seconds: "
 //         << chrono::duration_cast<chrono::seconds>(end - start).count() << " sec\n";
@@ -395,14 +411,14 @@ void runTest() {
     cout << "\n---Copy vetA to vetAux\n";
     copyArg1toArg2(vetAux, vetA);
 
-    cout << "\n# mergesortBottomUp\n";
-    start = chrono::steady_clock::now();
-    runmergesortBottomUp(vetA);
-    end = chrono::steady_clock::now();
-
-    runCheckIsSorted(vetA);
-
-    cout << "time: " << chrono::duration_cast<chrono::milliseconds>(end - start).count() << " ms\n";
+//     cout << "\n# mergesortBottomUp\n";
+//     start = chrono::steady_clock::now();
+//     runmergesortBottomUp(vetA);
+//     end = chrono::steady_clock::now();
+// 
+//     runCheckIsSorted(vetA);
+// 
+//     cout << "time: " << chrono::duration_cast<chrono::milliseconds>(end - start).count() << " ms\n";
 
     for (i = 0; i < countValuesX; i++) {
 //     for (i = 0; i < 1; i++) {
@@ -412,16 +428,16 @@ void runTest() {
         cout << "\n---Copy vetA to vetAux\n";
         copyArg1toArg2(vetAux, vetA);
 
-        cout << "\n# mergesortInsertionSort with X as " << valueX[i] << "\n";
-        start = chrono::steady_clock::now();
+//         cout << "\n# mergesortInsertionSort with X as " << valueX[i] << "\n";
+//         start = chrono::steady_clock::now();
 
         runmergesortInsertionSort(vetA, valueX[i]);
 
-        end = chrono::steady_clock::now();
+//         end = chrono::steady_clock::now();
 
-        runCheckIsSorted(vetA);
+//         runCheckIsSorted(vetA);
 
-        cout << "time: " << chrono::duration_cast<chrono::milliseconds>(end - start).count() << " ms\n";
+//         cout << "time: " << chrono::duration_cast<chrono::milliseconds>(end - start).count() << " ms\n";
     }
 
 //     cout << "\n\n--Copy vetB to vetAux";
