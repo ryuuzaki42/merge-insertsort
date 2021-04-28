@@ -2,18 +2,21 @@
 #include <random> // random device
 #include <chrono> // time chrono
 
-// #define vetSize 5000000 // "vetor" size
-#define vetCount 10 // count of "vectors"
+// #define vetSizeC 5000000 // "vetor" size // countCol
+#define vetCountL 10 // count of "vectors" // countLines
 
-#define vetSize 1000
-// #define vetCount 4
+// #define vetSizeC 6500000
+#define vetSizeC 6500
+
+// #define numTest 10
+#define numTest 10
 
 using namespace std;
 
 // general purpose functions //---------------------------------------------------------------------
 
-void vetPrint(int *vet) {
-    for (int i = 0; i < vetSize; i++) {
+void vetPrint(int *vet, int countCol) {
+    for (int i = 0; i < countCol; i++) {
         if (i < 10) {
             cout << "0000";
         } else if (i < 100) {
@@ -28,18 +31,18 @@ void vetPrint(int *vet) {
     }
 }
 
-void matPrint(int **mat) {
-    for (int i = 0; i < vetCount; i++) {
+void matPrint(int **mat, int countLines, int countCol) {
+    for (int i = 0; i < countLines; i++) {
         printf("\n");
-        for (int j = 0; j < vetSize; j++ ) {
+        for (int j = 0; j < countCol; j++ ) {
             printf("i %d j %d vet[i][j] %d\n", i , j, mat[i][j]);
         }
     }
 }
 
-void checkIsSorted (int *vet, int vetNum) {
+void checkIsSorted (int *vet, int countCol, int vetNum) {
     bool check = true;
-    for(int i = 0; i < vetSize - 1; i++) {
+    for(int i = 0; i < countCol - 1; i++) {
         if (vet[i] > vet[i+1]) {
             printf("\nvet[%d] > vet[%d] - %d > %d\n",i, i+1, vet[i], vet[i+1]);
             check = false;
@@ -51,23 +54,23 @@ void checkIsSorted (int *vet, int vetNum) {
         printf("\n---vetA%d is sorted", vetNum);
     } else {
         printf("\nvetA%d is not sorted", vetNum);
-//         vetPrint(vet);
+//         vetPrint(vet, countCol);
         exit(1);
     }
 }
 
-void runCheckIsSorted(int** mat) {
+void runCheckIsSorted(int** mat, int countLines, int countCol) {
     cout << "\n---Checking if is sorted";
 
-    for (int i = 0; i < vetCount; i++) {
-        checkIsSorted(mat[i], i);
+    for (int i = 0; i < countLines; i++) {
+        checkIsSorted(mat[i], countCol, i);
 //         printf("\ni %d mat[i] %d &mat[i][0] %d",i , mat[i], &mat[i][0]);
     }
     cout << "\n---";
 }
 
-void sanityCheckVetEqual(int *vetA, int *vetAux, int vetNum) {
-    for (int i = 0; i < vetSize; i++) {
+void sanityCheckVetEqual(int *vetA, int *vetAux, int countCol, int vetNum) {
+    for (int i = 0; i < countCol; i++) {
         if (vetA[i] != vetAux[i]) {
             printf("\nvetA%d != vetAux%d", vetNum, vetNum);
             return;
@@ -77,8 +80,8 @@ void sanityCheckVetEqual(int *vetA, int *vetAux, int vetNum) {
     printf("\n---vetA%d == vetAux%d", vetNum, vetNum);
 }
 
-// TODO type 1 crescent, 2 decrescent and 3 random
-void fillVets(int** mat) {
+// Type num random
+void fillVetsRandom(int** mat, int countLines, int countCol) {
     const int range_from = 1;
     const int range_to = 2147483647;
 //     const int range_to = 100;
@@ -88,28 +91,60 @@ void fillVets(int** mat) {
     uniform_int_distribution<int> distr(range_from, range_to);
 //     cout << distr(generator) << '\n';
 
-//     printf("\n vetSize %d vetCount %d", vetSize, vetCount);
-    for (int i = 0; i < vetCount; i++) {
-        for (int j = 0; j < vetSize; j++) {
+//     printf("\n countLines %d countCol %d", countLines, countCol);
+    for (int i = 0; i < countLines; i++) {
+        for (int j = 0; j < countCol; j++) {
             mat[i][j] = distr(generator);
         }
 
 //         cout << "\nmat[i]" << i<< "\n";
-//         vetPrint(mat[i]);
+//         vetPrint(mat[i], countCol);
     }
 
-//     matPrint(mat);
+//     matPrint(mat, countLines, countCol);
 }
 
-void copyArg1toArg2(int **mat1, int **mat2) {
-    for (int i = 0; i < vetCount; i++) {
-        for (int j = 0; j < vetSize; j++) {
+// Type num crescent
+void fillVetsCrescent(int** mat, int countLines, int countCol) {
+    int tmp = 1;
+    for (int i = 0; i < countLines; i++) {
+        for (int j = 0; j < countCol; j++) {
+            mat[i][j] = tmp;
+            tmp++;
+        }
+
+//         cout << "\nmat[i]" << i<< "\n";
+//         vetPrint(mat[i], countCol);
+    }
+
+//     matPrint(mat, countLines, countCol);
+}
+
+// Type num decrescent
+void fillVetsDecrescent(int** mat, int countLines, int countCol) {
+    int tmp = 2147483647; // < 6500000 * 10
+    for (int i = 0; i < countLines; i++) {
+        for (int j = 0; j < countCol; j++) {
+            mat[i][j] = tmp;
+            tmp--;
+        }
+
+//         cout << "\nmat[i]" << i<< "\n";
+//         vetPrint(mat[i], countCol);
+    }
+
+//     matPrint(mat, countLines, countCol);
+}
+
+void copyArg1toArg2(int **mat1, int **mat2, int countLines, int countCol) {
+    for (int i = 0; i < countLines; i++) {
+        for (int j = 0; j < countCol; j++) {
             mat2[i][j] = mat1[i][j];
         }
     }
 
-    for (int i = 0; i < vetCount; i++) {
-        sanityCheckVetEqual(mat1[i], mat2[i], i);
+    for (int i = 0; i < countLines; i++) {
+        sanityCheckVetEqual(mat1[i], mat2[i], countCol, i);
     }
 
     cout << "\n---";
@@ -126,7 +161,7 @@ void merge(int *vet, int *aux , int inf , int med, int sup) {
     }
 
     int i = inf, j = med + 1;
-    for ( int k = inf; k <= sup ; k++) {
+    for (int k = inf; k <= sup ; k++) {
         if (i > med) { // se sub vetor da direita terminou
             vet[k] = aux[j++];
         } else if (j > sup) { // se sub vetor da esquerda terminou
@@ -153,18 +188,17 @@ void sort(int *vet, int *aux, int inf, int sup) {
     merge(vet, aux, inf, med, sup);
 }
 
-void mergesort(int *vet) {
-    int *aux = new int[vetSize];
+void mergesortTopDown(int *vet, int size) {
+    int *aux = new int[size];
 
-    sort(vet, aux, 0, vetSize - 1);
+    sort(vet, aux, 0, size - 1);
 
     delete []aux;
 }
 
 // insertionSort //---------------------------------------------------------------------------------
-void insertionSort(int *vet) {
-//     int n = vetSize;
-    for(int j = 1; j < vetSize; j++) {
+void insertionSort(int *vet, int size) {
+    for(int j = 1; j < size; j++) {
         int chave = vet[j];
         int i = j - 1;
 
@@ -181,7 +215,7 @@ void insertionSort(int *vet) {
 // mergesort top-down + insertionSort //------------------------------------------------------------
 
 void insertionSortM(int *vet, int low, int high) {
-//     int n = vetSize;
+//     int size;
 
 //     cout << "\n insertionSortM low " << low << " high " << high << "\n";
     for(int j = low + 1; j < high; j++) {
@@ -198,7 +232,7 @@ void insertionSortM(int *vet, int low, int high) {
     }
 }
 
-void sortI(int *vet, int *aux, int inf, int sup, int threshold) {
+void sortMI(int *vet, int *aux, int inf, int sup, int threshold) {
     if (sup <= inf) {
         return;
     }
@@ -206,8 +240,8 @@ void sortI(int *vet, int *aux, int inf, int sup, int threshold) {
     if ((sup - inf) > threshold) {
         int med = inf + (sup - inf) / 2;
 
-        sortI(vet, aux, inf, med, threshold);
-        sortI(vet, aux, med + 1, sup, threshold);
+        sortMI(vet, aux, inf, med, threshold);
+        sortMI(vet, aux, med + 1, sup, threshold);
 
         merge(vet, aux, inf, med, sup);
     } else {
@@ -215,31 +249,28 @@ void sortI(int *vet, int *aux, int inf, int sup, int threshold) {
     }
 }
 
-void mergesortTpInsertionSort(int *vet, int threshold) {
-    int *aux = new int[vetSize];
+void mergesortTpInsertionSort(int *vet, int size, int threshold) {
+    int *aux = new int[size];
 
-    sortI(vet, aux, 0, vetSize - 1, threshold);
-//   sort(vet, aux, 0, vetSize - 1);
+    sortMI(vet, aux, 0, size - 1, threshold);
+//    sort(vet, aux, 0, size - 1);
 
     delete []aux;
 }
 
 // mergesort bottom-up //---------------------------------------------------------------------------
 
-void mergesortBottomUp(int *vet) {
-    int n = vetSize;
-//     int aux[vetSize];
-//     TODO
-    int *aux = new int[vetSize];
+void mergesortBottomUp(int *vet, int size) {
+    int *aux = new int[size];
 
     // tamanho dobra a cada iteração
-    for (int tam = 1; tam < n; tam = tam + tam) {
-        for (int inf = 0; inf < n - tam; inf += tam + tam) {
+    for (int tam = 1; tam < size; tam = tam + tam) {
+        for (int inf = 0; inf < size - tam; inf += tam + tam) {
             // sub vetor à esquerda em [inf, inf + tam - 1]
             // sub vetor à direita em [inf + tam, inf + tam + tam - 1]
-            // ou , se necessário , em [inf + tam, n - 1]
+            // ou , se necessário , em [inf + tam, size - 1]
 
-            merge (vet, aux, inf, inf + tam - 1, min(inf + tam + tam - 1, n - 1));
+            merge (vet, aux, inf, inf + tam - 1, min(inf + tam + tam - 1, size - 1));
         }
     }
 
@@ -251,130 +282,233 @@ void mergesortBottomUp(int *vet) {
 // 1 run mergeSort
 // 2 run mergesortBottomUp
 // 3 run mergesortTpInsertionSort with X as threshold
-void runAlgoritms(int **mat, int threshold, int typeSort) {
+void runAlgoritms(int **mat, int threshold, int typeSort, int test, string typeNumString) {
+    string algoritm;
     switch(typeSort) {
       case 1:
-         cout << "\n# mergesort top-down";
+         cout << "\n# mergesortTopDown";
+         algoritm = "mergesortTopDown";
          break;
       case 2:
          cout << "\n# mergesortBottomUp";
+         algoritm = "mergesortBottomUp";
          break;
       case 3:
          cout << "\n# mergesortTpInsertionSort with X as " << threshold;
+         algoritm = "mergesortTpInsertionSort_X_" + to_string(threshold);
          break;
     }
 
     auto start = chrono::steady_clock::now();
-    for (int i = 0; i < vetCount; i++) {
+    for (int i = 0; i < vetCountL; i++) {
         switch(typeSort) {
         case 1:
-            mergesort(mat[i]);
+            mergesortTopDown(mat[i], vetSizeC);
             break;
         case 2:
-            mergesortBottomUp(mat[i]);
+            mergesortBottomUp(mat[i], vetSizeC);
             break;
         case 3:
-            mergesortTpInsertionSort(mat[i], threshold);
+            mergesortTpInsertionSort(mat[i], vetSizeC, threshold);
             break;
         }
 
     }
     auto end = chrono::steady_clock::now();
 
-    runCheckIsSorted(mat);
-    cout << "\nElapsed time in ms: " << chrono::duration_cast<chrono::milliseconds>(end - start).count() << "\n";
+//  runCheckIsSorted(int** mat, int countLines, int countCol)
+    runCheckIsSorted(mat, vetCountL, vetSizeC);
+
+    cout << "\n"<< test << " " << typeNumString << " run of " << algoritm << " elapsed time in ms: "
+        << chrono::duration_cast<chrono::milliseconds>(end - start).count() << "\n";
 }
 
 // run tests of sorting //--------------------------------------------------------------------------
 
-void runTest(int **matA, int** matAux) {
+void runTestTmp(int **matA, int** matAux, int test, int typeNum) {
     int valueX[] = {10, 20, 40, 80, 160, 320, 640};
 //     int valueX[] = {100, 200, 400, 800, 1600, 3200, 6400};
 //     int valueX[] = {1000, 2000, 4000, 8000, 16000, 32000, 64000};
 //     int valueX[] = {49999, 49999, 49999, 49999, 49999, 49999, 49999};
     int countValuesX = 7;
 
+    string typeNumString;
     cout << "\n---Fill the matrix A\n---";
-    fillVets(matA);
+    if (typeNum == 1) {
+        cout << "\nFill with random numbers";
+        typeNumString = "random";
+        fillVetsRandom(matA, vetCountL, vetSizeC);
+
+    } else if (typeNum == 2) {
+        cout << "\nFill with crescent numbers";
+        typeNumString = "crescent";
+        fillVetsCrescent(matA, vetCountL, vetSizeC);
+
+    }else if (typeNum == 3) {
+        cout << "\nFill with decrescent numbers";
+        typeNumString = "decrescent";
+        fillVetsDecrescent(matA, vetCountL, vetSizeC);
+    }
 
     cout << "\n---Copy matA to matAux\n---";
-    copyArg1toArg2(matA, matAux);
+    copyArg1toArg2(matA, matAux, vetCountL, vetSizeC);
 
 //  runAlgoritms(int **mat, int threshold, int typeSort)
-    runAlgoritms(matA, 0, 1); // run mergeSort
+    runAlgoritms(matA, 0, 1, test, typeNumString); // run mergeSort
 
     cout << "\n---Copy matAux to matA\n---";
-    copyArg1toArg2(matAux, matA);
+    copyArg1toArg2(matAux, matA, vetCountL, vetSizeC);
 
-    runAlgoritms(matA, 0, 2); // run mergesortBottomUp
+    runAlgoritms(matA, 0, 2, test, typeNumString); // run mergesortBottomUp
 
     for (int i = 0; i < countValuesX; i++) {
         cout << "\n---Copy matAux to matA\n---";
-        copyArg1toArg2(matAux, matA);
+        copyArg1toArg2(matAux, matA, vetCountL, vetSizeC);
 
-        runAlgoritms(matA, valueX[i], 3); // run mergesortTpInsertionSort with threshold valueX[i]
+        runAlgoritms(matA, valueX[i], 3, test, typeNumString); // run mergesortTpInsertionSort with threshold valueX[i]
     }
 
 }
 
-void compareMergexInsert() {
-
-    int vet1[1000];
-    int vet2[1000];
-
-    cout << "\n\n--Copy matAux to matA";
-//     copyAtoB2(matAux, matA);
-
-    cout << "\n# insertionSort for one vet only\n";
-    auto start = chrono::steady_clock::now();
-
-//     insertionSort(matA[1]);
-
-    auto end = chrono::steady_clock::now();
-    cout << "time: " << chrono::duration_cast<chrono::milliseconds>(end - start).count() << " ms\n";
-}
-
-int main(){
-//     int numT = 10;
-    int numT = 1;
-
-    int **matA; // mat[vetCount][vetSize]
-    matA = new int* [vetCount];
-    for(int i = 0; i < vetCount; i++){
-        matA[i] = new int[vetSize];
+int** createMat(int** mat, int countLines, int countCol){
+    mat = new int* [countLines];
+    for(int i = 0; i < countLines; i++){
+        mat[i] = new int[countCol];
     }
 
-//  mat[vetCount][vetSize] => mat[10][5000000]
+    return mat;
+}
+
+int** deleteMat(int** mat){
+    for(int i = 0; i < vetCountL; i++){
+        delete[] mat[i];
+    }
+    delete[] mat;
+
+    return mat;
+}
+
+void runTest(int typeNum){
+    cout << "\nCount of vector to sort (vetCountL): " << vetCountL;
+    cout << "\nSize of each vector to sort (vetSizeC): " << vetSizeC;
+    cout << "\nNumber of sort/tests (numTest): " << numTest << "\n";
+
+    int **matA; // mat[vetCountL][vetSizeC]
+    matA = createMat(matA, vetCountL, vetSizeC);
+
+//     matA = new int* [vetCountL];
+//     for(int i = 0; i < vetCountL; i++){
+//         matA[i] = new int[vetSizeC];
+//     }
+
+//  mat[vetCountL][vetSizeC] => mat[10][5000000]
 //
-//  col    1 2 3  ... vetCount
+//  col    1 2 3  ... vetSizeC
 //  row 1 |X|X|X| ...
 //  row 2 |X|X|X| ...
 //  row 3 |X|X|X| ...
 //  ...
-//   vetCount
+//   vetCountL
 
     int **matAux;
-    matAux = new int* [vetCount];
-    for(int i = 0; i < vetCount; i++){
-        matAux[i] = new int[vetSize];
-    }
+    matAux = createMat(matA, vetCountL, vetSizeC);
+//     matAux = new int* [vetCountL];
+//     for(int i = 0; i < vetCountL; i++){
+//         matAux[i] = new int[vetSizeC];
+//     }
 
     cout << "\n# Starting tests\n";
-    for(int t =0; t < numT; t++) {
-        printf("\n# Running test %d of %d\n", t+1, numT);
-        runTest(matA, matAux);
+    for(int test = 1; test <= numTest; test++) {
+        printf("\n# Running test %d of %d\n", test, numTest);
+        runTestTmp(matA, matAux, test, typeNum);
     }
     cout << "\n# End of tests\n";
 
-    for(int i = 0; i < vetCount; i++){
-        delete[] matA[i];
-    }
-    delete[] matA;
+//     for(int i = 0; i < vetCountL; i++){
+//         delete[] matA[i];
+//     }
+//     delete[] matA;
+    matA = deleteMat(matA);
 
-    for(int i = 0; i < vetCount; i++){
-        delete[] matAux[i];
+//     for(int i = 0; i < vetCountL; i++){
+//         delete[] matAux[i];
+//     }
+//     delete[] matAux;
+
+    matAux = deleteMat(matAux);
+}
+
+void compareMergexInsert() {
+    int **matA; // mat[vetCountL][iCol]
+    int **matAux;
+    int maxValue = 101;
+
+    chrono::duration<double> timeI;
+    chrono::duration<double> timeM;
+    int runTime = 0;
+
+    for (int iCol = 1; iCol < maxValue;) {
+        if (runTime == 0) {
+            timeI = chrono::nanoseconds::zero();
+            timeM = chrono::nanoseconds::zero();
+        }
+
+        matA = createMat(matA, vetCountL, iCol);
+        matAux = createMat(matAux, vetCountL, iCol);
+
+        cout << "\n---Fill the matrix A\n---";
+        fillVetsRandom(matA, vetCountL, iCol);
+
+        cout << "\n---Copy matA to matAux\n---";
+        copyArg1toArg2(matA, matAux, vetCountL, iCol);
+
+
+        cout << "\n# mergesortTopDown with vector size of iCol " << iCol << " runTime " << runTime;
+        auto start = chrono::steady_clock::now();
+        for (int i = 0; i < vetCountL; i++){
+            mergesortTopDown(matA[i], iCol);
+        }
+        auto end = chrono::steady_clock::now();
+        timeM += end - start;
+
+        runCheckIsSorted(matA, vetCountL, iCol);
+
+        cout << "\n---Run mergesortTopDown Elapsed time in ns: " <<
+                chrono::duration_cast<chrono::nanoseconds>( end - start).count() << " iCol " << iCol <<  "\n";
+
+        runTime++;
+        if (runTime == 10) {
+            cout << "\nRun mergesortTopDown Elapsed time in ns: " <<
+                chrono::duration_cast<chrono::nanoseconds>(timeM/10).count() << " iCol " << iCol <<  "\n";
+
+        }
+
+        cout << "\n# insertionSort with vector size of " << iCol;
+        start = chrono::steady_clock::now();
+        for (int i = 0; i < vetCountL; i++){
+            insertionSort(matAux[i], iCol);
+        }
+        end = chrono::steady_clock::now();
+        timeI += end - start;
+
+        runCheckIsSorted(matAux, vetCountL, iCol);
+
+        if (runTime == 10) {
+            cout << "\nRun insertionSort Elapsed time in ns: " <<
+                chrono::duration_cast<chrono::nanoseconds>(timeI/10).count() << " iCol " << iCol <<  "\n";
+
+            runTime = 0;
+            iCol++;
+        }
     }
-    delete[] matAux;
+}
+
+int main(){
+//     compareMergexInsert();
+
+    runTest(1); // typeNum 1 random numbers
+    runTest(2); // typeNum 2 crescent numbers
+    runTest(3); // typeNum 3 decrescent numbers
 
     return 0;
 }
