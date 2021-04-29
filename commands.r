@@ -15,10 +15,7 @@
     ./a.out
 
 ## Run and save results
-    ./a.out > results.txt
+    ./a.out > results/resultsAll
 
-## Clean sanity checks from results.txt
-    cat results.txt | grep -v "\-\-\-"
-
-## Clean sanity checks from results.txt and save in resultsClean
-    cat results.txt | grep -v "\-\-\-" > resultsClean
+## Clean sanity checks from resultsAll
+    cat results/resultsAll | grep -v "\-\-\-"
