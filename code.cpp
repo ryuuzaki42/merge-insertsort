@@ -2,9 +2,9 @@
 #include <random> // random device
 #include <chrono> // time chrono
 
-// #define vetSizeC 5000000 // "vetor" size // countCol
 #define vetCountL 10 // count of "vectors" // countLines
 
+// #define vetSizeC 50000 // 5 * 10^4 // "vetor" size // countCol
 #define vetSizeC 6500000 // 6.5 * 10^6
 
 #define numTest 10 // Count of tests
@@ -33,7 +33,7 @@ void matPrint(int **mat, int countLines, int countCol) {
     for (int i = 0; i < countLines; i++) {
         printf("\n");
         for (int j = 0; j < countCol; j++ ) {
-            printf("i %d j %d vet[i][j] %d\n", i , j, mat[i][j]);
+            printf("i %d j %d vet[i][j] %d\n", i, j, mat[i][j]);
         }
     }
 }
@@ -42,7 +42,7 @@ void checkIsSorted (int *vet, int countCol, int vetNum) {
     bool check = true;
     for(int i = 0; i < countCol - 1; i++) {
         if (vet[i] > vet[i+1]) {
-            printf("\nvet[%d] > vet[%d] - %d > %d\n",i, i+1, vet[i], vet[i+1]);
+            printf("\nvet[%d] > vet[%d] - %d > %d\n", i, i+1, vet[i], vet[i+1]);
             check = false;
             break;
         }
@@ -81,12 +81,12 @@ void sanityCheckVetEqual(int *vetA, int *vetAux, int countCol, int vetNum) {
 // Type num random
 void fillVetsRandom(int** mat, int countLines, int countCol) {
     const int range_from = 1;
-    const int range_to = 2147483647;
 //     const int range_to = 100;
+    const int range_to = 2147483647;
 
     random_device rand_dev;
     mt19937 generator(rand_dev());
-    uniform_int_distribution<int> distr(range_from, range_to);
+    uniform_int_distribution <int> distr(range_from, range_to);
 //     cout << distr(generator) << '\n';
 
     for (int i = 0; i < countLines; i++) {
@@ -107,7 +107,7 @@ void fillVetsCrescent(int** mat, int countLines, int countCol) {
     for (int i = 0; i < countLines; i++) {
         for (int j = 0; j < countCol; j++) {
             mat[i][j] = tmp;
-            tmp++; // < 6500000 * 10
+            tmp++; // < INT_MAX, 6500000 * 10
         }
 
 //         cout << "\nmat[i]" << i<< "\n";
@@ -123,7 +123,7 @@ void fillVetsDecrescent(int** mat, int countLines, int countCol) {
     for (int i = 0; i < countLines; i++) {
         for (int j = 0; j < countCol; j++) {
             mat[i][j] = tmp;
-            tmp--; // > 6500000 * 10
+            tmp--; // > 0, 6500000 * 10
         }
 
 //         cout << "\nmat[i]" << i<< "\n";
@@ -143,7 +143,6 @@ void copyArg1toArg2(int **mat1, int **mat2, int countLines, int countCol) {
     for (int i = 0; i < countLines; i++) {
         sanityCheckVetEqual(mat1[i], mat2[i], countCol, i);
     }
-
     cout << "\n---";
 }
 
@@ -194,9 +193,8 @@ void mergesortTopDown(int *vet, int size) {
 }
 
 // insertionSort //---------------------------------------------------------------------------------
+
 // Estilo ordenar cartas de baralho na mão
-// Complexidade de memória O(1)
-// Complexidade de comparações O(n^2)
 void insertionSort(int *vet, int size) {
     for(int j = 1; j < size; j++) {
         int chave = vet[j];
@@ -252,7 +250,6 @@ void mergesortTopDownInsertionSort(int *vet, int size, int threshold) {
     int *aux = new int[size];
 
     sortMI(vet, aux, 0, size - 1, threshold);
-//    sort(vet, aux, 0, size - 1);
 
     delete []aux;
 }
@@ -269,7 +266,7 @@ void mergesortBottomUp(int *vet, int size) {
             // sub vetor à direita em [inf + tam, inf + tam + tam - 1]
             // ou , se necessário , em [inf + tam, size - 1]
 
-            merge (vet, aux, inf, inf + tam - 1, min(inf + tam + tam - 1, size - 1));
+            merge(vet, aux, inf, inf + tam - 1, min(inf + tam + tam - 1, size - 1));
         }
     }
 
@@ -311,7 +308,6 @@ void runAlgoritms(int **mat, int threshold, int typeSort, int test, string typeN
             mergesortTopDownInsertionSort(mat[i], vetSizeC, threshold);
             break;
         }
-
     }
     auto end = chrono::steady_clock::now();
 
@@ -415,77 +411,10 @@ void runTest(int typeNum){
     matAux = deleteMat(matAux);
 }
 
-void compareMergexInsert() {
-    int **matA; // mat[vetCountL][iCol]
-    int **matAux;
-    int maxValue = 101;
-
-    chrono::duration<double> timeI;
-    chrono::duration<double> timeM;
-    int runTime = 0;
-
-    for (int iCol = 1; iCol < maxValue;) {
-        if (runTime == 0) {
-            timeI = chrono::nanoseconds::zero();
-            timeM = chrono::nanoseconds::zero();
-        }
-
-        matA = createMat(matA, vetCountL, iCol);
-        matAux = createMat(matAux, vetCountL, iCol);
-
-        cout << "\n---Fill the matrix A\n---";
-        fillVetsRandom(matA, vetCountL, iCol);
-
-        cout << "\n---Copy matA to matAux\n---";
-        copyArg1toArg2(matA, matAux, vetCountL, iCol);
-
-
-        cout << "\n# mergesortTopDown with vector size of iCol " << iCol << " runTime " << runTime;
-        auto start = chrono::steady_clock::now();
-        for (int i = 0; i < vetCountL; i++){
-            mergesortTopDown(matA[i], iCol);
-        }
-        auto end = chrono::steady_clock::now();
-        timeM += end - start;
-
-        runCheckIsSorted(matA, vetCountL, iCol);
-
-        cout << "\n---Run mergesortTopDown Elapsed time in ns: " <<
-                chrono::duration_cast<chrono::nanoseconds>( end - start).count() << " iCol " << iCol <<  "\n";
-
-        runTime++;
-        if (runTime == 10) {
-            cout << "\nRun mergesortTopDown Elapsed time in ns: " <<
-                chrono::duration_cast<chrono::nanoseconds>(timeM/10).count() << " iCol " << iCol <<  "\n";
-
-        }
-
-        cout << "\n# insertionSort with vector size of " << iCol;
-        start = chrono::steady_clock::now();
-        for (int i = 0; i < vetCountL; i++){
-            insertionSort(matAux[i], iCol);
-        }
-        end = chrono::steady_clock::now();
-        timeI += end - start;
-
-        runCheckIsSorted(matAux, vetCountL, iCol);
-
-        if (runTime == 10) {
-            cout << "\nRun insertionSort Elapsed time in ns: " <<
-                chrono::duration_cast<chrono::nanoseconds>(timeI/10).count() << " iCol " << iCol <<  "\n";
-
-            runTime = 0;
-            iCol++;
-        }
-    }
-}
-
 int main() {
     runTest(1); // typeNum 1 random numbers
     runTest(2); // typeNum 2 crescent numbers
     runTest(3); // typeNum 3 decrescent numbers
-
-//     compareMergexInsert();
 
     return 0;
 }
