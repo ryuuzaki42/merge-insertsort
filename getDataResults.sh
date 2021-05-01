@@ -16,6 +16,8 @@ cat resultsClean | grep "run of mergesortTopDownInsertionSort_X_160 " > mergesor
 cat resultsClean | grep "run of mergesortTopDownInsertionSort_X_320 " > mergesortTopDownInsertionSort_X_320
 cat resultsClean | grep "run of mergesortTopDownInsertionSort_X_640 " > mergesortTopDownInsertionSort_X_640
 
+cat resultsClean | grep "run of insertionSort " > insertionSort
+
 cat mergesortTopDown > resultsFinal
 echo "" >>  resultsFinal
 cat mergesortBottomUp >> resultsFinal
@@ -33,6 +35,8 @@ echo "" >>  resultsFinal
 cat mergesortTopDownInsertionSort_X_320 >> resultsFinal
 echo "" >>  resultsFinal
 cat mergesortTopDownInsertionSort_X_640 >> resultsFinal
+echo "" >>  resultsFinal
+cat insertionSort >> resultsFinal
 
 cat resultsFinal | grep -E " random|$^" > resultsFinalRandom
 cat resultsFinal | grep -E " crescent|$^" > resultsFinalCrescent
