@@ -293,6 +293,10 @@ void runAlgoritms(int **mat, int threshold, int typeSort, int test, string typeN
          cout << "\n# mergesortTopDownInsertionSort with X as " << threshold;
          algoritm = "mergesortTopDownInsertionSort_X_" + to_string(threshold);
          break;
+      case 4:
+         cout << "\n# insertionSort";
+         algoritm = "insertionSort";
+         break;
     }
 
     auto start = chrono::steady_clock::now();
@@ -306,6 +310,9 @@ void runAlgoritms(int **mat, int threshold, int typeSort, int test, string typeN
             break;
         case 3:
             mergesortTopDownInsertionSort(mat[i], vetSizeC, threshold);
+            break;
+        case 4:
+            insertionSort(mat[i], vetSizeC);
             break;
         }
     }
@@ -332,14 +339,14 @@ void runTestTmp(int **matA, int** matAux, int test, int typeNum) {
         fillVetsRandom(matA, vetCountL, vetSizeC);
 
     } else if (typeNum == 2) {
-        cout << "\nFill with crescent numbers";
-        typeNumString = "crescent";
-        fillVetsCrescent(matA, vetCountL, vetSizeC);
-
-    }else if (typeNum == 3) {
         cout << "\nFill with decrescent numbers";
         typeNumString = "decrescent";
         fillVetsDecrescent(matA, vetCountL, vetSizeC);
+
+    } else if (typeNum == 3) {
+        cout << "\nFill with crescent numbers";
+        typeNumString = "crescent";
+        fillVetsCrescent(matA, vetCountL, vetSizeC);
     }
 
     cout << "\n---Copy matA to matAux\n---";
@@ -360,9 +367,16 @@ void runTestTmp(int **matA, int** matAux, int test, int typeNum) {
         // run mergesortTpInsertionSort with threshold valueX[i]
         runAlgoritms(matA, valueX[i], 3, test, typeNumString);
     }
+
+//------------------------------------------------------------------------//
+    copyArg1toArg2(matAux, matA, vetCountL, vetSizeC);
+
+    // Warning sort large vectors with insertionSort can take long time
+    runAlgoritms(matA, 0, 4, test, typeNumString); // run insertionSort
+//------------------------------------------------------------------------//
 }
 
-int** createMat(int** mat, int countLines, int countCol){
+int** createMat(int** mat, int countLines, int countCol) {
     mat = new int* [countLines];
     for(int i = 0; i < countLines; i++){
         mat[i] = new int[countCol];
@@ -371,8 +385,8 @@ int** createMat(int** mat, int countLines, int countCol){
     return mat;
 }
 
-int** deleteMat(int** mat){
-    for(int i = 0; i < vetCountL; i++){
+int** deleteMat(int** mat) {
+    for(int i = 0; i < vetCountL; i++) {
         delete[] mat[i];
     }
     delete[] mat;
@@ -380,7 +394,7 @@ int** deleteMat(int** mat){
     return mat;
 }
 
-void runTest(int typeNum){
+void runTest(int typeNum) {
     cout << "\nCount of vector to sort (vetCountL): " << vetCountL;
     cout << "\nSize of each vector to sort (vetSizeC): " << vetSizeC;
     cout << "\nNumber of sort/tests (numTest): " << numTest << "\n";
@@ -413,8 +427,8 @@ void runTest(int typeNum){
 
 int main() {
     runTest(1); // typeNum 1 random numbers
-    runTest(2); // typeNum 2 crescent numbers
-    runTest(3); // typeNum 3 decrescent numbers
+    runTest(2); // typeNum 2 decrescent numbers
+    runTest(3); // typeNum 3 crescent numbers
 
     return 0;
 }
