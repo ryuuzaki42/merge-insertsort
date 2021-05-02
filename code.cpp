@@ -7,7 +7,7 @@
 // #define vetSizeC 50000 // 5 * 10^4 // "vetor" size // countCol
 #define vetSizeC 6500000 // 6.5 * 10^6
 
-#define numTest 10 // Count of tests
+#define numTest 10 // Number of tests
 
 using namespace std;
 
@@ -353,7 +353,7 @@ void runTestTmp(int **matA, int** matAux, int test, int typeNum) {
     copyArg1toArg2(matA, matAux, vetCountL, vetSizeC);
 
 //  runAlgoritms(int **mat, int threshold, int typeSort)
-    runAlgoritms(matA, 0, 1, test, typeNumString); // run mergeSort
+    runAlgoritms(matA, 0, 1, test, typeNumString); // run mergesortTopDown
 
     cout << "\n---Copy matAux to matA\n---";
     copyArg1toArg2(matAux, matA, vetCountL, vetSizeC);
@@ -369,6 +369,7 @@ void runTestTmp(int **matA, int** matAux, int test, int typeNum) {
     }
 
 //------------------------------------------------------------------------//
+    cout << "\n---Copy matAux to matA\n---";
     copyArg1toArg2(matAux, matA, vetCountL, vetSizeC);
 
     // Warning sort large vectors with insertionSort can take long time
@@ -397,7 +398,7 @@ int** deleteMat(int** mat) {
 void runTest(int typeNum) {
     cout << "\nCount of vector to sort (vetCountL): " << vetCountL;
     cout << "\nSize of each vector to sort (vetSizeC): " << vetSizeC;
-    cout << "\nNumber of sort/tests (numTest): " << numTest << "\n";
+    cout << "\nNumber of tests (numTest): " << numTest << "\n";
 
     int **matA; // mat[vetCountL][vetSizeC]
     matA = createMat(matA, vetCountL, vetSizeC);
