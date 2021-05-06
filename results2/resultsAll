@@ -1,0 +1,8574 @@
+
+Count of vector to sort (vetCountL): 10
+Size of each vector to sort (vetSizeC): 50000
+Number of tests (numTest): 10
+
+# Starting tests
+
+# Running test 1 of 10
+
+---Fill the matrix A
+---
+Fill with random numbers
+---Copy matA to matAux
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDown
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+1 random run of mergesortTopDown elapsed time in ms: 160
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortBottomUp
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+1 random run of mergesortBottomUp elapsed time in ms: 136
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 10
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+1 random run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 133
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 20
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+1 random run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 121
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 40
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+1 random run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 118
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 80
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+1 random run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 125
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 160
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+1 random run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 149
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 320
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+1 random run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 206
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 640
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+1 random run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 327
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# insertionSort
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+1 random run of insertionSort elapsed time in ms: 33189
+
+# Running test 2 of 10
+
+---Fill the matrix A
+---
+Fill with random numbers
+---Copy matA to matAux
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDown
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+2 random run of mergesortTopDown elapsed time in ms: 159
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortBottomUp
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+2 random run of mergesortBottomUp elapsed time in ms: 136
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 10
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+2 random run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 131
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 20
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+2 random run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 121
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 40
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+2 random run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 118
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 80
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+2 random run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 125
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 160
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+2 random run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 148
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 320
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+2 random run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 205
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 640
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+2 random run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 327
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# insertionSort
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+2 random run of insertionSort elapsed time in ms: 33402
+
+# Running test 3 of 10
+
+---Fill the matrix A
+---
+Fill with random numbers
+---Copy matA to matAux
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDown
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+3 random run of mergesortTopDown elapsed time in ms: 162
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortBottomUp
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+3 random run of mergesortBottomUp elapsed time in ms: 138
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 10
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+3 random run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 134
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 20
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+3 random run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 123
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 40
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+3 random run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 120
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 80
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+3 random run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 127
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 160
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+3 random run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 151
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 320
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+3 random run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 209
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 640
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+3 random run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 334
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# insertionSort
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+3 random run of insertionSort elapsed time in ms: 33857
+
+# Running test 4 of 10
+
+---Fill the matrix A
+---
+Fill with random numbers
+---Copy matA to matAux
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDown
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+4 random run of mergesortTopDown elapsed time in ms: 162
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortBottomUp
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+4 random run of mergesortBottomUp elapsed time in ms: 138
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 10
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+4 random run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 134
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 20
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+4 random run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 123
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 40
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+4 random run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 121
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 80
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+4 random run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 127
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 160
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+4 random run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 151
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 320
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+4 random run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 209
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 640
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+4 random run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 334
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# insertionSort
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+4 random run of insertionSort elapsed time in ms: 33828
+
+# Running test 5 of 10
+
+---Fill the matrix A
+---
+Fill with random numbers
+---Copy matA to matAux
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDown
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+5 random run of mergesortTopDown elapsed time in ms: 162
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortBottomUp
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+5 random run of mergesortBottomUp elapsed time in ms: 138
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 10
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+5 random run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 134
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 20
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+5 random run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 123
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 40
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+5 random run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 121
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 80
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+5 random run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 127
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 160
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+5 random run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 151
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 320
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+5 random run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 210
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 640
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+5 random run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 334
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# insertionSort
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+5 random run of insertionSort elapsed time in ms: 33825
+
+# Running test 6 of 10
+
+---Fill the matrix A
+---
+Fill with random numbers
+---Copy matA to matAux
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDown
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+6 random run of mergesortTopDown elapsed time in ms: 162
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortBottomUp
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+6 random run of mergesortBottomUp elapsed time in ms: 138
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 10
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+6 random run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 134
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 20
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+6 random run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 123
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 40
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+6 random run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 120
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 80
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+6 random run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 127
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 160
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+6 random run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 151
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 320
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+6 random run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 209
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 640
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+6 random run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 334
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# insertionSort
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+6 random run of insertionSort elapsed time in ms: 33993
+
+# Running test 7 of 10
+
+---Fill the matrix A
+---
+Fill with random numbers
+---Copy matA to matAux
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDown
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+7 random run of mergesortTopDown elapsed time in ms: 162
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortBottomUp
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+7 random run of mergesortBottomUp elapsed time in ms: 138
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 10
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+7 random run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 134
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 20
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+7 random run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 123
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 40
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+7 random run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 120
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 80
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+7 random run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 127
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 160
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+7 random run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 151
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 320
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+7 random run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 209
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 640
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+7 random run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 333
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# insertionSort
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+7 random run of insertionSort elapsed time in ms: 33796
+
+# Running test 8 of 10
+
+---Fill the matrix A
+---
+Fill with random numbers
+---Copy matA to matAux
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDown
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+8 random run of mergesortTopDown elapsed time in ms: 162
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortBottomUp
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+8 random run of mergesortBottomUp elapsed time in ms: 138
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 10
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+8 random run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 134
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 20
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+8 random run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 123
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 40
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+8 random run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 120
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 80
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+8 random run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 127
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 160
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+8 random run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 151
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 320
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+8 random run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 209
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 640
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+8 random run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 334
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# insertionSort
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+8 random run of insertionSort elapsed time in ms: 33871
+
+# Running test 9 of 10
+
+---Fill the matrix A
+---
+Fill with random numbers
+---Copy matA to matAux
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDown
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+9 random run of mergesortTopDown elapsed time in ms: 162
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortBottomUp
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+9 random run of mergesortBottomUp elapsed time in ms: 138
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 10
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+9 random run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 134
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 20
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+9 random run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 123
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 40
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+9 random run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 120
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 80
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+9 random run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 127
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 160
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+9 random run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 151
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 320
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+9 random run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 209
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 640
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+9 random run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 334
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# insertionSort
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+9 random run of insertionSort elapsed time in ms: 33512
+
+# Running test 10 of 10
+
+---Fill the matrix A
+---
+Fill with random numbers
+---Copy matA to matAux
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDown
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+10 random run of mergesortTopDown elapsed time in ms: 159
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortBottomUp
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+10 random run of mergesortBottomUp elapsed time in ms: 135
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 10
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+10 random run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 131
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 20
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+10 random run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 121
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 40
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+10 random run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 118
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 80
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+10 random run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 125
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 160
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+10 random run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 148
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 320
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+10 random run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 205
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 640
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+10 random run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 327
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# insertionSort
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+10 random run of insertionSort elapsed time in ms: 33611
+
+# End of tests
+
+Count of vector to sort (vetCountL): 10
+Size of each vector to sort (vetSizeC): 50000
+Number of tests (numTest): 10
+
+# Starting tests
+
+# Running test 1 of 10
+
+---Fill the matrix A
+---
+Fill with decrescent numbers
+---Copy matA to matAux
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDown
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+1 decrescent run of mergesortTopDown elapsed time in ms: 116
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortBottomUp
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+1 decrescent run of mergesortBottomUp elapsed time in ms: 96
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 10
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+1 decrescent run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 100
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 20
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+1 decrescent run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 93
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 40
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+1 decrescent run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 102
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 80
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+1 decrescent run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 129
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 160
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+1 decrescent run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 189
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 320
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+1 decrescent run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 316
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 640
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+1 decrescent run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 579
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# insertionSort
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+1 decrescent run of insertionSort elapsed time in ms: 67173
+
+# Running test 2 of 10
+
+---Fill the matrix A
+---
+Fill with decrescent numbers
+---Copy matA to matAux
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDown
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+2 decrescent run of mergesortTopDown elapsed time in ms: 116
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortBottomUp
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+2 decrescent run of mergesortBottomUp elapsed time in ms: 95
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 10
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+2 decrescent run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 99
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 20
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+2 decrescent run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 93
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 40
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+2 decrescent run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 102
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 80
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+2 decrescent run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 129
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 160
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+2 decrescent run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 188
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 320
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+2 decrescent run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 316
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 640
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+2 decrescent run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 576
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# insertionSort
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+2 decrescent run of insertionSort elapsed time in ms: 67692
+
+# Running test 3 of 10
+
+---Fill the matrix A
+---
+Fill with decrescent numbers
+---Copy matA to matAux
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDown
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+3 decrescent run of mergesortTopDown elapsed time in ms: 116
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortBottomUp
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+3 decrescent run of mergesortBottomUp elapsed time in ms: 96
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 10
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+3 decrescent run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 99
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 20
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+3 decrescent run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 94
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 40
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+3 decrescent run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 102
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 80
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+3 decrescent run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 128
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 160
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+3 decrescent run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 189
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 320
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+3 decrescent run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 316
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 640
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+3 decrescent run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 576
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# insertionSort
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+3 decrescent run of insertionSort elapsed time in ms: 67692
+
+# Running test 4 of 10
+
+---Fill the matrix A
+---
+Fill with decrescent numbers
+---Copy matA to matAux
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDown
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+4 decrescent run of mergesortTopDown elapsed time in ms: 116
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortBottomUp
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+4 decrescent run of mergesortBottomUp elapsed time in ms: 95
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 10
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+4 decrescent run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 99
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 20
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+4 decrescent run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 93
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 40
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+4 decrescent run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 102
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 80
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+4 decrescent run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 129
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 160
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+4 decrescent run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 189
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 320
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+4 decrescent run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 316
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 640
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+4 decrescent run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 576
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# insertionSort
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+4 decrescent run of insertionSort elapsed time in ms: 67086
+
+# Running test 5 of 10
+
+---Fill the matrix A
+---
+Fill with decrescent numbers
+---Copy matA to matAux
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDown
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+5 decrescent run of mergesortTopDown elapsed time in ms: 114
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortBottomUp
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+5 decrescent run of mergesortBottomUp elapsed time in ms: 94
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 10
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+5 decrescent run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 97
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 20
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+5 decrescent run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 92
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 40
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+5 decrescent run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 100
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 80
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+5 decrescent run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 126
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 160
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+5 decrescent run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 185
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 320
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+5 decrescent run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 310
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 640
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+5 decrescent run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 565
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# insertionSort
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+5 decrescent run of insertionSort elapsed time in ms: 66378
+
+# Running test 6 of 10
+
+---Fill the matrix A
+---
+Fill with decrescent numbers
+---Copy matA to matAux
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDown
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+6 decrescent run of mergesortTopDown elapsed time in ms: 114
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortBottomUp
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+6 decrescent run of mergesortBottomUp elapsed time in ms: 94
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 10
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+6 decrescent run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 97
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 20
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+6 decrescent run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 92
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 40
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+6 decrescent run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 100
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 80
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+6 decrescent run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 126
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 160
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+6 decrescent run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 185
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 320
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+6 decrescent run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 310
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 640
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+6 decrescent run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 565
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# insertionSort
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+6 decrescent run of insertionSort elapsed time in ms: 66386
+
+# Running test 7 of 10
+
+---Fill the matrix A
+---
+Fill with decrescent numbers
+---Copy matA to matAux
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDown
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+7 decrescent run of mergesortTopDown elapsed time in ms: 114
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortBottomUp
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+7 decrescent run of mergesortBottomUp elapsed time in ms: 94
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 10
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+7 decrescent run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 97
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 20
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+7 decrescent run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 92
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 40
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+7 decrescent run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 100
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 80
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+7 decrescent run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 126
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 160
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+7 decrescent run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 185
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 320
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+7 decrescent run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 310
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 640
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+7 decrescent run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 565
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# insertionSort
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+7 decrescent run of insertionSort elapsed time in ms: 66612
+
+# Running test 8 of 10
+
+---Fill the matrix A
+---
+Fill with decrescent numbers
+---Copy matA to matAux
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDown
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+8 decrescent run of mergesortTopDown elapsed time in ms: 114
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortBottomUp
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+8 decrescent run of mergesortBottomUp elapsed time in ms: 94
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 10
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+8 decrescent run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 97
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 20
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+8 decrescent run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 95
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 40
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+8 decrescent run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 103
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 80
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+8 decrescent run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 126
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 160
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+8 decrescent run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 185
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 320
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+8 decrescent run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 310
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 640
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+8 decrescent run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 565
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# insertionSort
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+8 decrescent run of insertionSort elapsed time in ms: 66381
+
+# Running test 9 of 10
+
+---Fill the matrix A
+---
+Fill with decrescent numbers
+---Copy matA to matAux
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDown
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+9 decrescent run of mergesortTopDown elapsed time in ms: 114
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortBottomUp
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+9 decrescent run of mergesortBottomUp elapsed time in ms: 94
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 10
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+9 decrescent run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 97
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 20
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+9 decrescent run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 92
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 40
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+9 decrescent run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 100
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 80
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+9 decrescent run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 126
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 160
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+9 decrescent run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 185
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 320
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+9 decrescent run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 310
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 640
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+9 decrescent run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 565
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# insertionSort
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+9 decrescent run of insertionSort elapsed time in ms: 66610
+
+# Running test 10 of 10
+
+---Fill the matrix A
+---
+Fill with decrescent numbers
+---Copy matA to matAux
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDown
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+10 decrescent run of mergesortTopDown elapsed time in ms: 114
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortBottomUp
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+10 decrescent run of mergesortBottomUp elapsed time in ms: 94
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 10
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+10 decrescent run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 97
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 20
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+10 decrescent run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 92
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 40
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+10 decrescent run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 100
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 80
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+10 decrescent run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 126
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 160
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+10 decrescent run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 185
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 320
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+10 decrescent run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 310
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 640
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+10 decrescent run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 565
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# insertionSort
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+10 decrescent run of insertionSort elapsed time in ms: 66336
+
+# End of tests
+
+Count of vector to sort (vetCountL): 10
+Size of each vector to sort (vetSizeC): 50000
+Number of tests (numTest): 10
+
+# Starting tests
+
+# Running test 1 of 10
+
+---Fill the matrix A
+---
+Fill with crescent numbers
+---Copy matA to matAux
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDown
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+1 crescent run of mergesortTopDown elapsed time in ms: 120
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortBottomUp
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+1 crescent run of mergesortBottomUp elapsed time in ms: 92
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 10
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+1 crescent run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 83
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 20
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+1 crescent run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 73
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 40
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+1 crescent run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 65
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 80
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+1 crescent run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 57
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 160
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+1 crescent run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 51
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 320
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+1 crescent run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 45
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 640
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+1 crescent run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 40
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# insertionSort
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+1 crescent run of insertionSort elapsed time in ms: 3
+
+# Running test 2 of 10
+
+---Fill the matrix A
+---
+Fill with crescent numbers
+---Copy matA to matAux
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDown
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+2 crescent run of mergesortTopDown elapsed time in ms: 120
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortBottomUp
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+2 crescent run of mergesortBottomUp elapsed time in ms: 92
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 10
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+2 crescent run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 83
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 20
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+2 crescent run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 73
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 40
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+2 crescent run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 65
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 80
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+2 crescent run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 57
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 160
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+2 crescent run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 51
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 320
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+2 crescent run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 45
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 640
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+2 crescent run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 40
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# insertionSort
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+2 crescent run of insertionSort elapsed time in ms: 3
+
+# Running test 3 of 10
+
+---Fill the matrix A
+---
+Fill with crescent numbers
+---Copy matA to matAux
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDown
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+3 crescent run of mergesortTopDown elapsed time in ms: 120
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortBottomUp
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+3 crescent run of mergesortBottomUp elapsed time in ms: 92
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 10
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+3 crescent run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 83
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 20
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+3 crescent run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 73
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 40
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+3 crescent run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 65
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 80
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+3 crescent run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 57
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 160
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+3 crescent run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 51
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 320
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+3 crescent run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 45
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 640
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+3 crescent run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 40
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# insertionSort
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+3 crescent run of insertionSort elapsed time in ms: 3
+
+# Running test 4 of 10
+
+---Fill the matrix A
+---
+Fill with crescent numbers
+---Copy matA to matAux
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDown
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+4 crescent run of mergesortTopDown elapsed time in ms: 120
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortBottomUp
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+4 crescent run of mergesortBottomUp elapsed time in ms: 92
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 10
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+4 crescent run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 83
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 20
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+4 crescent run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 73
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 40
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+4 crescent run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 65
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 80
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+4 crescent run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 57
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 160
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+4 crescent run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 51
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 320
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+4 crescent run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 45
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 640
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+4 crescent run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 40
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# insertionSort
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+4 crescent run of insertionSort elapsed time in ms: 3
+
+# Running test 5 of 10
+
+---Fill the matrix A
+---
+Fill with crescent numbers
+---Copy matA to matAux
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDown
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+5 crescent run of mergesortTopDown elapsed time in ms: 120
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortBottomUp
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+5 crescent run of mergesortBottomUp elapsed time in ms: 92
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 10
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+5 crescent run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 83
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 20
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+5 crescent run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 73
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 40
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+5 crescent run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 65
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 80
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+5 crescent run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 57
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 160
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+5 crescent run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 51
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 320
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+5 crescent run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 45
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 640
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+5 crescent run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 40
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# insertionSort
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+5 crescent run of insertionSort elapsed time in ms: 3
+
+# Running test 6 of 10
+
+---Fill the matrix A
+---
+Fill with crescent numbers
+---Copy matA to matAux
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDown
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+6 crescent run of mergesortTopDown elapsed time in ms: 120
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortBottomUp
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+6 crescent run of mergesortBottomUp elapsed time in ms: 92
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 10
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+6 crescent run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 83
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 20
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+6 crescent run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 73
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 40
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+6 crescent run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 65
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 80
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+6 crescent run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 57
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 160
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+6 crescent run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 51
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 320
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+6 crescent run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 45
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 640
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+6 crescent run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 40
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# insertionSort
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+6 crescent run of insertionSort elapsed time in ms: 3
+
+# Running test 7 of 10
+
+---Fill the matrix A
+---
+Fill with crescent numbers
+---Copy matA to matAux
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDown
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+7 crescent run of mergesortTopDown elapsed time in ms: 120
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortBottomUp
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+7 crescent run of mergesortBottomUp elapsed time in ms: 92
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 10
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+7 crescent run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 83
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 20
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+7 crescent run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 73
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 40
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+7 crescent run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 65
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 80
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+7 crescent run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 57
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 160
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+7 crescent run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 51
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 320
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+7 crescent run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 45
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 640
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+7 crescent run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 40
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# insertionSort
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+7 crescent run of insertionSort elapsed time in ms: 3
+
+# Running test 8 of 10
+
+---Fill the matrix A
+---
+Fill with crescent numbers
+---Copy matA to matAux
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDown
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+8 crescent run of mergesortTopDown elapsed time in ms: 120
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortBottomUp
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+8 crescent run of mergesortBottomUp elapsed time in ms: 92
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 10
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+8 crescent run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 83
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 20
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+8 crescent run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 73
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 40
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+8 crescent run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 65
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 80
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+8 crescent run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 57
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 160
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+8 crescent run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 51
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 320
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+8 crescent run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 45
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 640
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+8 crescent run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 40
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# insertionSort
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+8 crescent run of insertionSort elapsed time in ms: 3
+
+# Running test 9 of 10
+
+---Fill the matrix A
+---
+Fill with crescent numbers
+---Copy matA to matAux
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDown
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+9 crescent run of mergesortTopDown elapsed time in ms: 120
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortBottomUp
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+9 crescent run of mergesortBottomUp elapsed time in ms: 92
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 10
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+9 crescent run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 83
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 20
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+9 crescent run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 73
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 40
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+9 crescent run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 65
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 80
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+9 crescent run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 57
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 160
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+9 crescent run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 51
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 320
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+9 crescent run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 45
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 640
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+9 crescent run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 40
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# insertionSort
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+9 crescent run of insertionSort elapsed time in ms: 3
+
+# Running test 10 of 10
+
+---Fill the matrix A
+---
+Fill with crescent numbers
+---Copy matA to matAux
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDown
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+10 crescent run of mergesortTopDown elapsed time in ms: 120
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortBottomUp
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+10 crescent run of mergesortBottomUp elapsed time in ms: 92
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 10
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+10 crescent run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 83
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 20
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+10 crescent run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 73
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 40
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+10 crescent run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 65
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 80
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+10 crescent run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 57
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 160
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+10 crescent run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 51
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 320
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+10 crescent run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 45
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# mergesortTopDownInsertionSort with X as 640
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+10 crescent run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 40
+
+---Copy matAux to matA
+---
+---vetA0 == vetAux0
+---vetA1 == vetAux1
+---vetA2 == vetAux2
+---vetA3 == vetAux3
+---vetA4 == vetAux4
+---vetA5 == vetAux5
+---vetA6 == vetAux6
+---vetA7 == vetAux7
+---vetA8 == vetAux8
+---vetA9 == vetAux9
+---
+# insertionSort
+---Checking if is sorted
+---vetA0 is sorted
+---vetA1 is sorted
+---vetA2 is sorted
+---vetA3 is sorted
+---vetA4 is sorted
+---vetA5 is sorted
+---vetA6 is sorted
+---vetA7 is sorted
+---vetA8 is sorted
+---vetA9 is sorted
+---
+10 crescent run of insertionSort elapsed time in ms: 3
+
+# End of tests
