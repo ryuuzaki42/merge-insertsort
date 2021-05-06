@@ -1,0 +1,924 @@
+
+Count of vector to sort (vetCountL): 10
+Size of each vector to sort (vetSizeC): 6500000
+Number of sort/tests (numTest): 10
+
+# Starting tests
+
+# Running test 1 of 10
+
+Fill with random numbers
+# mergesortTopDown
+1 random run of mergesortTopDown elapsed time in ms: 28513
+
+# mergesortBottomUp
+1 random run of mergesortBottomUp elapsed time in ms: 26209
+
+# mergesortTopDownInsertionSort with X as 10
+1 random run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 25280
+
+# mergesortTopDownInsertionSort with X as 20
+1 random run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 23469
+
+# mergesortTopDownInsertionSort with X as 40
+1 random run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 23533
+
+# mergesortTopDownInsertionSort with X as 80
+1 random run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 24502
+
+# mergesortTopDownInsertionSort with X as 160
+1 random run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 27653
+
+# mergesortTopDownInsertionSort with X as 320
+1 random run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 35080
+
+# mergesortTopDownInsertionSort with X as 640
+1 random run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 50924
+
+# Running test 2 of 10
+
+Fill with random numbers
+# mergesortTopDown
+2 random run of mergesortTopDown elapsed time in ms: 28469
+
+# mergesortBottomUp
+2 random run of mergesortBottomUp elapsed time in ms: 25737
+
+# mergesortTopDownInsertionSort with X as 10
+2 random run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 24952
+
+# mergesortTopDownInsertionSort with X as 20
+2 random run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 23893
+
+# mergesortTopDownInsertionSort with X as 40
+2 random run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 23546
+
+# mergesortTopDownInsertionSort with X as 80
+2 random run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 24470
+
+# mergesortTopDownInsertionSort with X as 160
+2 random run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 27683
+
+# mergesortTopDownInsertionSort with X as 320
+2 random run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 34765
+
+# mergesortTopDownInsertionSort with X as 640
+2 random run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 51769
+
+# Running test 3 of 10
+
+Fill with random numbers
+# mergesortTopDown
+3 random run of mergesortTopDown elapsed time in ms: 29031
+
+# mergesortBottomUp
+3 random run of mergesortBottomUp elapsed time in ms: 26251
+
+# mergesortTopDownInsertionSort with X as 10
+3 random run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 25301
+
+# mergesortTopDownInsertionSort with X as 20
+3 random run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 23896
+
+# mergesortTopDownInsertionSort with X as 40
+3 random run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 23553
+
+# mergesortTopDownInsertionSort with X as 80
+3 random run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 24087
+
+# mergesortTopDownInsertionSort with X as 160
+3 random run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 27448
+
+# mergesortTopDownInsertionSort with X as 320
+3 random run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 35199
+
+# mergesortTopDownInsertionSort with X as 640
+3 random run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 51338
+
+# Running test 4 of 10
+
+Fill with random numbers
+# mergesortTopDown
+4 random run of mergesortTopDown elapsed time in ms: 29032
+
+# mergesortBottomUp
+4 random run of mergesortBottomUp elapsed time in ms: 26251
+
+# mergesortTopDownInsertionSort with X as 10
+4 random run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 25301
+
+# mergesortTopDownInsertionSort with X as 20
+4 random run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 23894
+
+# mergesortTopDownInsertionSort with X as 40
+4 random run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 23551
+
+# mergesortTopDownInsertionSort with X as 80
+4 random run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 24476
+
+# mergesortTopDownInsertionSort with X as 160
+4 random run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 27689
+
+# mergesortTopDownInsertionSort with X as 320
+4 random run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 34866
+
+# mergesortTopDownInsertionSort with X as 640
+4 random run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 51016
+
+# Running test 5 of 10
+
+Fill with random numbers
+# mergesortTopDown
+5 random run of mergesortTopDown elapsed time in ms: 29031
+
+# mergesortBottomUp
+5 random run of mergesortBottomUp elapsed time in ms: 26251
+
+# mergesortTopDownInsertionSort with X as 10
+5 random run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 25301
+
+# mergesortTopDownInsertionSort with X as 20
+5 random run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 23897
+
+# mergesortTopDownInsertionSort with X as 40
+5 random run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 23550
+
+# mergesortTopDownInsertionSort with X as 80
+5 random run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 24476
+
+# mergesortTopDownInsertionSort with X as 160
+5 random run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 27689
+
+# mergesortTopDownInsertionSort with X as 320
+5 random run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 35373
+
+# mergesortTopDownInsertionSort with X as 640
+5 random run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 51414
+
+# Running test 6 of 10
+
+Fill with random numbers
+# mergesortTopDown
+6 random run of mergesortTopDown elapsed time in ms: 28838
+
+# mergesortBottomUp
+6 random run of mergesortBottomUp elapsed time in ms: 26250
+
+# mergesortTopDownInsertionSort with X as 10
+6 random run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 25298
+
+# mergesortTopDownInsertionSort with X as 20
+6 random run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 23892
+
+# mergesortTopDownInsertionSort with X as 40
+6 random run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 23546
+
+# mergesortTopDownInsertionSort with X as 80
+6 random run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 24470
+
+# mergesortTopDownInsertionSort with X as 160
+6 random run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 27683
+
+# mergesortTopDownInsertionSort with X as 320
+6 random run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 35308
+
+# mergesortTopDownInsertionSort with X as 640
+6 random run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 51235
+
+# Running test 7 of 10
+
+Fill with random numbers
+# mergesortTopDown
+7 random run of mergesortTopDown elapsed time in ms: 28394
+
+# mergesortBottomUp
+7 random run of mergesortBottomUp elapsed time in ms: 25721
+
+# mergesortTopDownInsertionSort with X as 10
+7 random run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 25241
+
+# mergesortTopDownInsertionSort with X as 20
+7 random run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 23892
+
+# mergesortTopDownInsertionSort with X as 40
+7 random run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 23546
+
+# mergesortTopDownInsertionSort with X as 80
+7 random run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 24471
+
+# mergesortTopDownInsertionSort with X as 160
+7 random run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 27683
+
+# mergesortTopDownInsertionSort with X as 320
+7 random run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 35364
+
+# mergesortTopDownInsertionSort with X as 640
+7 random run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 51819
+
+# Running test 8 of 10
+
+Fill with random numbers
+# mergesortTopDown
+8 random run of mergesortTopDown elapsed time in ms: 28771
+
+# mergesortBottomUp
+8 random run of mergesortBottomUp elapsed time in ms: 25719
+
+# mergesortTopDownInsertionSort with X as 10
+8 random run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 24773
+
+# mergesortTopDownInsertionSort with X as 20
+8 random run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 23401
+
+# mergesortTopDownInsertionSort with X as 40
+8 random run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 23059
+
+# mergesortTopDownInsertionSort with X as 80
+8 random run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 23965
+
+# mergesortTopDownInsertionSort with X as 160
+8 random run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 27111
+
+# mergesortTopDownInsertionSort with X as 320
+8 random run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 34683
+
+# mergesortTopDownInsertionSort with X as 640
+8 random run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 50791
+
+# Running test 9 of 10
+
+Fill with random numbers
+# mergesortTopDown
+9 random run of mergesortTopDown elapsed time in ms: 28393
+
+# mergesortBottomUp
+9 random run of mergesortBottomUp elapsed time in ms: 25722
+
+# mergesortTopDownInsertionSort with X as 10
+9 random run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 24776
+
+# mergesortTopDownInsertionSort with X as 20
+9 random run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 23410
+
+# mergesortTopDownInsertionSort with X as 40
+9 random run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 23418
+
+# mergesortTopDownInsertionSort with X as 80
+9 random run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 23966
+
+# mergesortTopDownInsertionSort with X as 160
+9 random run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 27113
+
+# mergesortTopDownInsertionSort with X as 320
+9 random run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 34689
+
+# mergesortTopDownInsertionSort with X as 640
+9 random run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 50807
+
+# Running test 10 of 10
+
+Fill with random numbers
+# mergesortTopDown
+10 random run of mergesortTopDown elapsed time in ms: 28391
+
+# mergesortBottomUp
+10 random run of mergesortBottomUp elapsed time in ms: 25874
+
+# mergesortTopDownInsertionSort with X as 10
+10 random run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 24851
+
+# mergesortTopDownInsertionSort with X as 20
+10 random run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 23579
+
+# mergesortTopDownInsertionSort with X as 40
+10 random run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 23121
+
+# mergesortTopDownInsertionSort with X as 80
+10 random run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 24028
+
+# mergesortTopDownInsertionSort with X as 160
+10 random run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 27184
+
+# mergesortTopDownInsertionSort with X as 320
+10 random run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 34716
+
+# mergesortTopDownInsertionSort with X as 640
+10 random run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 51155
+
+# End of tests
+
+Count of vector to sort (vetCountL): 10
+Size of each vector to sort (vetSizeC): 6500000
+Number of sort/tests (numTest): 10
+
+# Starting tests
+
+# Running test 1 of 10
+
+Fill with crescent numbers
+# mergesortTopDown
+1 crescent run of mergesortTopDown elapsed time in ms: 20622
+
+# mergesortBottomUp
+1 crescent run of mergesortBottomUp elapsed time in ms: 17393
+
+# mergesortTopDownInsertionSort with X as 10
+1 crescent run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 15795
+
+# mergesortTopDownInsertionSort with X as 20
+1 crescent run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 14422
+
+# mergesortTopDownInsertionSort with X as 40
+1 crescent run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 13330
+
+# mergesortTopDownInsertionSort with X as 80
+1 crescent run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 12335
+
+# mergesortTopDownInsertionSort with X as 160
+1 crescent run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 11509
+
+# mergesortTopDownInsertionSort with X as 320
+1 crescent run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 10786
+
+# mergesortTopDownInsertionSort with X as 640
+1 crescent run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 10233
+
+# Running test 2 of 10
+
+Fill with crescent numbers
+# mergesortTopDown
+2 crescent run of mergesortTopDown elapsed time in ms: 20941
+
+# mergesortBottomUp
+2 crescent run of mergesortBottomUp elapsed time in ms: 17226
+
+# mergesortTopDownInsertionSort with X as 10
+2 crescent run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 15757
+
+# mergesortTopDownInsertionSort with X as 20
+2 crescent run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 14380
+
+# mergesortTopDownInsertionSort with X as 40
+2 crescent run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 13357
+
+# mergesortTopDownInsertionSort with X as 80
+2 crescent run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 12297
+
+# mergesortTopDownInsertionSort with X as 160
+2 crescent run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 11508
+
+# mergesortTopDownInsertionSort with X as 320
+2 crescent run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 10785
+
+# mergesortTopDownInsertionSort with X as 640
+2 crescent run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 10096
+
+# Running test 3 of 10
+
+Fill with crescent numbers
+# mergesortTopDown
+3 crescent run of mergesortTopDown elapsed time in ms: 20599
+
+# mergesortBottomUp
+3 crescent run of mergesortBottomUp elapsed time in ms: 17225
+
+# mergesortTopDownInsertionSort with X as 10
+3 crescent run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 15757
+
+# mergesortTopDownInsertionSort with X as 20
+3 crescent run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 14380
+
+# mergesortTopDownInsertionSort with X as 40
+3 crescent run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 13346
+
+# mergesortTopDownInsertionSort with X as 80
+3 crescent run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 12292
+
+# mergesortTopDownInsertionSort with X as 160
+3 crescent run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 11507
+
+# mergesortTopDownInsertionSort with X as 320
+3 crescent run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 10795
+
+# mergesortTopDownInsertionSort with X as 640
+3 crescent run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 10095
+
+# Running test 4 of 10
+
+Fill with crescent numbers
+# mergesortTopDown
+4 crescent run of mergesortTopDown elapsed time in ms: 20572
+
+# mergesortBottomUp
+4 crescent run of mergesortBottomUp elapsed time in ms: 17221
+
+# mergesortTopDownInsertionSort with X as 10
+4 crescent run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 15798
+
+# mergesortTopDownInsertionSort with X as 20
+4 crescent run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 14630
+
+# mergesortTopDownInsertionSort with X as 40
+4 crescent run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 13297
+
+# mergesortTopDownInsertionSort with X as 80
+4 crescent run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 12291
+
+# mergesortTopDownInsertionSort with X as 160
+4 crescent run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 11513
+
+# mergesortTopDownInsertionSort with X as 320
+4 crescent run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 10786
+
+# mergesortTopDownInsertionSort with X as 640
+4 crescent run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 10123
+
+# Running test 5 of 10
+
+Fill with crescent numbers
+# mergesortTopDown
+5 crescent run of mergesortTopDown elapsed time in ms: 20570
+
+# mergesortBottomUp
+5 crescent run of mergesortBottomUp elapsed time in ms: 17221
+
+# mergesortTopDownInsertionSort with X as 10
+5 crescent run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 15758
+
+# mergesortTopDownInsertionSort with X as 20
+5 crescent run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 14424
+
+# mergesortTopDownInsertionSort with X as 40
+5 crescent run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 13295
+
+# mergesortTopDownInsertionSort with X as 80
+5 crescent run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 12295
+
+# mergesortTopDownInsertionSort with X as 160
+5 crescent run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 11511
+
+# mergesortTopDownInsertionSort with X as 320
+5 crescent run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 10786
+
+# mergesortTopDownInsertionSort with X as 640
+5 crescent run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 10130
+
+# Running test 6 of 10
+
+Fill with crescent numbers
+# mergesortTopDown
+6 crescent run of mergesortTopDown elapsed time in ms: 20570
+
+# mergesortBottomUp
+6 crescent run of mergesortBottomUp elapsed time in ms: 17226
+
+# mergesortTopDownInsertionSort with X as 10
+6 crescent run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 15802
+
+# mergesortTopDownInsertionSort with X as 20
+6 crescent run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 14379
+
+# mergesortTopDownInsertionSort with X as 40
+6 crescent run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 13294
+
+# mergesortTopDownInsertionSort with X as 80
+6 crescent run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 12293
+
+# mergesortTopDownInsertionSort with X as 160
+6 crescent run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 11510
+
+# mergesortTopDownInsertionSort with X as 320
+6 crescent run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 10785
+
+# mergesortTopDownInsertionSort with X as 640
+6 crescent run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 10092
+
+# Running test 7 of 10
+
+Fill with crescent numbers
+# mergesortTopDown
+7 crescent run of mergesortTopDown elapsed time in ms: 20575
+
+# mergesortBottomUp
+7 crescent run of mergesortBottomUp elapsed time in ms: 17221
+
+# mergesortTopDownInsertionSort with X as 10
+7 crescent run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 15858
+
+# mergesortTopDownInsertionSort with X as 20
+7 crescent run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 14387
+
+# mergesortTopDownInsertionSort with X as 40
+7 crescent run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 13294
+
+# mergesortTopDownInsertionSort with X as 80
+7 crescent run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 12280
+
+# mergesortTopDownInsertionSort with X as 160
+7 crescent run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 11495
+
+# mergesortTopDownInsertionSort with X as 320
+7 crescent run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 10809
+
+# mergesortTopDownInsertionSort with X as 640
+7 crescent run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 10080
+
+# Running test 8 of 10
+
+Fill with crescent numbers
+# mergesortTopDown
+8 crescent run of mergesortTopDown elapsed time in ms: 20550
+
+# mergesortBottomUp
+8 crescent run of mergesortBottomUp elapsed time in ms: 17198
+
+# mergesortTopDownInsertionSort with X as 10
+8 crescent run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 15826
+
+# mergesortTopDownInsertionSort with X as 20
+8 crescent run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 14363
+
+# mergesortTopDownInsertionSort with X as 40
+8 crescent run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 13302
+
+# mergesortTopDownInsertionSort with X as 80
+8 crescent run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 12539
+
+# mergesortTopDownInsertionSort with X as 160
+8 crescent run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 11682
+
+# mergesortTopDownInsertionSort with X as 320
+8 crescent run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 10774
+
+# mergesortTopDownInsertionSort with X as 640
+8 crescent run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 10082
+
+# Running test 9 of 10
+
+Fill with crescent numbers
+# mergesortTopDown
+9 crescent run of mergesortTopDown elapsed time in ms: 20548
+
+# mergesortBottomUp
+9 crescent run of mergesortBottomUp elapsed time in ms: 17260
+
+# mergesortTopDownInsertionSort with X as 10
+9 crescent run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 15741
+
+# mergesortTopDownInsertionSort with X as 20
+9 crescent run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 14364
+
+# mergesortTopDownInsertionSort with X as 40
+9 crescent run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 13280
+
+# mergesortTopDownInsertionSort with X as 80
+9 crescent run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 12378
+
+# mergesortTopDownInsertionSort with X as 160
+9 crescent run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 11587
+
+# mergesortTopDownInsertionSort with X as 320
+9 crescent run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 10810
+
+# mergesortTopDownInsertionSort with X as 640
+9 crescent run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 10116
+
+# Running test 10 of 10
+
+Fill with crescent numbers
+# mergesortTopDown
+10 crescent run of mergesortTopDown elapsed time in ms: 20586
+
+# mergesortBottomUp
+10 crescent run of mergesortBottomUp elapsed time in ms: 17365
+
+# mergesortTopDownInsertionSort with X as 10
+10 crescent run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 15778
+
+# mergesortTopDownInsertionSort with X as 20
+10 crescent run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 14400
+
+# mergesortTopDownInsertionSort with X as 40
+10 crescent run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 13320
+
+# mergesortTopDownInsertionSort with X as 80
+10 crescent run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 12316
+
+# mergesortTopDownInsertionSort with X as 160
+10 crescent run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 11531
+
+# mergesortTopDownInsertionSort with X as 320
+10 crescent run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 10810
+
+# mergesortTopDownInsertionSort with X as 640
+10 crescent run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 10224
+
+# End of tests
+
+Count of vector to sort (vetCountL): 10
+Size of each vector to sort (vetSizeC): 6500000
+Number of sort/tests (numTest): 10
+
+# Starting tests
+
+# Running test 1 of 10
+
+Fill with decrescent numbers
+# mergesortTopDown
+1 decrescent run of mergesortTopDown elapsed time in ms: 20008
+
+# mergesortBottomUp
+1 decrescent run of mergesortBottomUp elapsed time in ms: 17660
+
+# mergesortTopDownInsertionSort with X as 10
+1 decrescent run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 17748
+
+# mergesortTopDownInsertionSort with X as 20
+1 decrescent run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 17114
+
+# mergesortTopDownInsertionSort with X as 40
+1 decrescent run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 18450
+
+# mergesortTopDownInsertionSort with X as 80
+1 decrescent run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 21640
+
+# mergesortTopDownInsertionSort with X as 160
+1 decrescent run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 29388
+
+# mergesortTopDownInsertionSort with X as 320
+1 decrescent run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 45950
+
+# mergesortTopDownInsertionSort with X as 640
+1 decrescent run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 79708
+
+# Running test 2 of 10
+
+Fill with decrescent numbers
+# mergesortTopDown
+2 decrescent run of mergesortTopDown elapsed time in ms: 19987
+
+# mergesortBottomUp
+2 decrescent run of mergesortBottomUp elapsed time in ms: 17634
+
+# mergesortTopDownInsertionSort with X as 10
+2 decrescent run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 17716
+
+# mergesortTopDownInsertionSort with X as 20
+2 decrescent run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 17082
+
+# mergesortTopDownInsertionSort with X as 40
+2 decrescent run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 18192
+
+# mergesortTopDownInsertionSort with X as 80
+2 decrescent run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 21620
+
+# mergesortTopDownInsertionSort with X as 160
+2 decrescent run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 29442
+
+# mergesortTopDownInsertionSort with X as 320
+2 decrescent run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 46176
+
+# mergesortTopDownInsertionSort with X as 640
+2 decrescent run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 79681
+
+# Running test 3 of 10
+
+Fill with decrescent numbers
+# mergesortTopDown
+3 decrescent run of mergesortTopDown elapsed time in ms: 19974
+
+# mergesortBottomUp
+3 decrescent run of mergesortBottomUp elapsed time in ms: 17544
+
+# mergesortTopDownInsertionSort with X as 10
+3 decrescent run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 17717
+
+# mergesortTopDownInsertionSort with X as 20
+3 decrescent run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 17347
+
+# mergesortTopDownInsertionSort with X as 40
+3 decrescent run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 18527
+
+# mergesortTopDownInsertionSort with X as 80
+3 decrescent run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 22030
+
+# mergesortTopDownInsertionSort with X as 160
+3 decrescent run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 29965
+
+# mergesortTopDownInsertionSort with X as 320
+3 decrescent run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 46842
+
+# mergesortTopDownInsertionSort with X as 640
+3 decrescent run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 81146
+
+# Running test 4 of 10
+
+Fill with decrescent numbers
+# mergesortTopDown
+4 decrescent run of mergesortTopDown elapsed time in ms: 20259
+
+# mergesortBottomUp
+4 decrescent run of mergesortBottomUp elapsed time in ms: 17536
+
+# mergesortTopDownInsertionSort with X as 10
+4 decrescent run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 17922
+
+# mergesortTopDownInsertionSort with X as 20
+4 decrescent run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 17348
+
+# mergesortTopDownInsertionSort with X as 40
+4 decrescent run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 18514
+
+# mergesortTopDownInsertionSort with X as 80
+4 decrescent run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 21890
+
+# mergesortTopDownInsertionSort with X as 160
+4 decrescent run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 29507
+
+# mergesortTopDownInsertionSort with X as 320
+4 decrescent run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 46843
+
+# mergesortTopDownInsertionSort with X as 640
+4 decrescent run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 81150
+
+# Running test 5 of 10
+
+Fill with decrescent numbers
+# mergesortTopDown
+5 decrescent run of mergesortTopDown elapsed time in ms: 20366
+
+# mergesortBottomUp
+5 decrescent run of mergesortBottomUp elapsed time in ms: 17701
+
+# mergesortTopDownInsertionSort with X as 10
+5 decrescent run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 17677
+
+# mergesortTopDownInsertionSort with X as 20
+5 decrescent run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 17165
+
+# mergesortTopDownInsertionSort with X as 40
+5 decrescent run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 18537
+
+# mergesortTopDownInsertionSort with X as 80
+5 decrescent run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 22036
+
+# mergesortTopDownInsertionSort with X as 160
+5 decrescent run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 29735
+
+# mergesortTopDownInsertionSort with X as 320
+5 decrescent run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 46466
+
+# mergesortTopDownInsertionSort with X as 640
+5 decrescent run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 81178
+
+# Running test 6 of 10
+
+Fill with decrescent numbers
+# mergesortTopDown
+6 decrescent run of mergesortTopDown elapsed time in ms: 20373
+
+# mergesortBottomUp
+6 decrescent run of mergesortBottomUp elapsed time in ms: 17888
+
+# mergesortTopDownInsertionSort with X as 10
+6 decrescent run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 17989
+
+# mergesortTopDownInsertionSort with X as 20
+6 decrescent run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 16995
+
+# mergesortTopDownInsertionSort with X as 40
+6 decrescent run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 18309
+
+# mergesortTopDownInsertionSort with X as 80
+6 decrescent run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 22037
+
+# mergesortTopDownInsertionSort with X as 160
+6 decrescent run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 29971
+
+# mergesortTopDownInsertionSort with X as 320
+6 decrescent run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 46442
+
+# mergesortTopDownInsertionSort with X as 640
+6 decrescent run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 80956
+
+# Running test 7 of 10
+
+Fill with decrescent numbers
+# mergesortTopDown
+7 decrescent run of mergesortTopDown elapsed time in ms: 20371
+
+# mergesortBottomUp
+7 decrescent run of mergesortBottomUp elapsed time in ms: 17540
+
+# mergesortTopDownInsertionSort with X as 10
+7 decrescent run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 17799
+
+# mergesortTopDownInsertionSort with X as 20
+7 decrescent run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 17352
+
+# mergesortTopDownInsertionSort with X as 40
+7 decrescent run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 18161
+
+# mergesortTopDownInsertionSort with X as 80
+7 decrescent run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 21776
+
+# mergesortTopDownInsertionSort with X as 160
+7 decrescent run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 30049
+
+# mergesortTopDownInsertionSort with X as 320
+7 decrescent run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 46866
+
+# mergesortTopDownInsertionSort with X as 640
+7 decrescent run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 81176
+
+# Running test 8 of 10
+
+Fill with decrescent numbers
+# mergesortTopDown
+8 decrescent run of mergesortTopDown elapsed time in ms: 20387
+
+# mergesortBottomUp
+8 decrescent run of mergesortBottomUp elapsed time in ms: 17975
+
+# mergesortTopDownInsertionSort with X as 10
+8 decrescent run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 18212
+
+# mergesortTopDownInsertionSort with X as 20
+8 decrescent run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 17160
+
+# mergesortTopDownInsertionSort with X as 40
+8 decrescent run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 18189
+
+# mergesortTopDownInsertionSort with X as 80
+8 decrescent run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 21617
+
+# mergesortTopDownInsertionSort with X as 160
+8 decrescent run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 29801
+
+# mergesortTopDownInsertionSort with X as 320
+8 decrescent run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 46886
+
+# mergesortTopDownInsertionSort with X as 640
+8 decrescent run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 80513
+
+# Running test 9 of 10
+
+Fill with decrescent numbers
+# mergesortTopDown
+9 decrescent run of mergesortTopDown elapsed time in ms: 20168
+
+# mergesortBottomUp
+9 decrescent run of mergesortBottomUp elapsed time in ms: 17969
+
+# mergesortTopDownInsertionSort with X as 10
+9 decrescent run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 17722
+
+# mergesortTopDownInsertionSort with X as 20
+9 decrescent run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 17092
+
+# mergesortTopDownInsertionSort with X as 40
+9 decrescent run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 18538
+
+# mergesortTopDownInsertionSort with X as 80
+9 decrescent run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 22005
+
+# mergesortTopDownInsertionSort with X as 160
+9 decrescent run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 29355
+
+# mergesortTopDownInsertionSort with X as 320
+9 decrescent run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 46857
+
+# mergesortTopDownInsertionSort with X as 640
+9 decrescent run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 81175
+
+# Running test 10 of 10
+
+Fill with decrescent numbers
+# mergesortTopDown
+10 decrescent run of mergesortTopDown elapsed time in ms: 20372
+
+# mergesortBottomUp
+10 decrescent run of mergesortBottomUp elapsed time in ms: 17897
+
+# mergesortTopDownInsertionSort with X as 10
+10 decrescent run of mergesortTopDownInsertionSort_X_10 elapsed time in ms: 18062
+
+# mergesortTopDownInsertionSort with X as 20
+10 decrescent run of mergesortTopDownInsertionSort_X_20 elapsed time in ms: 17353
+
+# mergesortTopDownInsertionSort with X as 40
+10 decrescent run of mergesortTopDownInsertionSort_X_40 elapsed time in ms: 18542
+
+# mergesortTopDownInsertionSort with X as 80
+10 decrescent run of mergesortTopDownInsertionSort_X_80 elapsed time in ms: 21971
+
+# mergesortTopDownInsertionSort with X as 160
+10 decrescent run of mergesortTopDownInsertionSort_X_160 elapsed time in ms: 29361
+
+# mergesortTopDownInsertionSort with X as 320
+10 decrescent run of mergesortTopDownInsertionSort_X_320 elapsed time in ms: 46439
+
+# mergesortTopDownInsertionSort with X as 640
+10 decrescent run of mergesortTopDownInsertionSort_X_640 elapsed time in ms: 81177
+
+# End of tests
